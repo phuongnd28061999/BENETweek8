@@ -10,7 +10,7 @@ namespace BaiTapTuan8
     {
         void AddStudent(Student student);
         List<Student> GetStudents();
-        List<Student> SortStudents(string criteria);
+        List<Student> SortStudents(string choice);
         void UpdateStudent(Guid id, Student newStudent);
         void DeleteStudent(Guid id);
         void DeleteStudents(List<Guid> ids);
